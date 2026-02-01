@@ -1,7 +1,7 @@
-📂 Estrutura do Repositório
+## 📂 Estrutura do Repositório
 Organize assim para mostrar maturidade em Engenharia de Software (não deixe tudo num notebook solto):
 
-Plaintext
+```
 /transactional-fraud-detection
 │
 ├── /data            # (Gitignore no CSV real, coloque um sample)
@@ -16,7 +16,9 @@ Plaintext
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
-💳 O README Matador (Copie o código abaixo)
+```
+
+## 💳 O README Matador (Copie o código abaixo)
 Markdown
 <div align="center">
   <img src="https://img.shields.io/badge/Business-Finance-2ca02c?style=for-the-badge&logo=money" alt="Finance">
@@ -124,7 +126,9 @@ JSON
   "probability": 0.94,
   "risk_factors": ["High Amount for User History", "Night Time Transaction"]
 }
-👤 Author
+```
+
+## 👤 Author
 Fernando Torres Senior Data Scientist & Fraud Specialist | MSc Candidate at USP
 
 <a href="https://www.linkedin.com/in/fertorresfs/"> <img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-Connect-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin"> </a>
