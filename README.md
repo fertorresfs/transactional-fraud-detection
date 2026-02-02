@@ -1,25 +1,3 @@
-## 📂 Estrutura do Repositório
-Organize assim para mostrar maturidade em Engenharia de Software (não deixe tudo num notebook solto):
-
-```
-/transactional-fraud-detection
-│
-├── /data            # (Gitignore no CSV real, coloque um sample)
-├── /models          # Modelos serializados (.pkl / .joblib)
-├── /notebooks       # EDA e Prototipação
-├── /src             # Código de Produção
-│   ├── pipeline.py  # ETL e Feature Engineering
-│   ├── train.py     # Treino com MLflow
-│   └── predict.py   # Inferência em tempo real
-├── /api             # API FastAPI para deploy
-├── /dashboard       # Streamlit app para monitoramento
-├── Dockerfile
-├── requirements.txt
-└── README.md
-```
-
-## 💳 O README Matador (Copie o código abaixo)
-Markdown
 <div align="center">
   <img src="https://img.shields.io/badge/Business-Finance-2ca02c?style=for-the-badge&logo=money" alt="Finance">
   <h1>Transactional Fraud Detection System</h1>
@@ -42,7 +20,24 @@ Markdown
 </div>
 
 ---
+## 📂 Estrutura do Repositório
 
+```
+/transactional-fraud-detection
+│
+├── /data            # (Gitignore no CSV real, coloque um sample)
+├── /models          # Modelos serializados (.pkl / .joblib)
+├── /notebooks       # EDA e Prototipação
+├── /src             # Código de Produção
+│   ├── pipeline.py  # ETL e Feature Engineering
+│   ├── train.py     # Treino com MLflow
+│   └── predict.py   # Inferência em tempo real
+├── /api             # API FastAPI para deploy
+├── /dashboard       # Streamlit app para monitoramento
+├── Dockerfile
+├── requirements.txt
+└── README.md
+```
 ## 💼 Business Problem
 
 In the financial sector, fraud represents less than 0.1% of transactions, yet it costs billions annually. A traditional rule-based system (e.g., *"block if amount > $10k"*) is rigid and generates high friction for legitimate high-value customers.
@@ -132,12 +127,3 @@ JSON
 Fernando Torres Senior Data Scientist & Fraud Specialist | MSc Candidate at USP
 
 <a href="https://www.linkedin.com/in/fertorresfs/"> <img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-Connect-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin"> </a>
-
-
-### 🧠 Instruções Finais do Consultor:
-
-1.  **O Dataset:** Para este projeto, recomendo fortemente usar o dataset clássico do Kaggle: **Credit Card Fraud Detection** ou o **Paysim (Mobile Money)**. Eles são perfeitos para isso.
-2.  **A "Mentira" Sincera (Assets):** Você precisa gerar os gráficos (`confusion_matrix.png` e `shap_plot.png`). Rode um notebook rápido com XGBoost nesses dados do Kaggle e salve as imagens. Sem imagem, não tem impacto.
-3.  **O Diferencial:** O trecho de JSON "Response" no final do README (com `risk_factors`) é o que brilha os olhos de quem contrata para bancos. Mostra que você pensa em quem vai consumir a API.
-
-Pode subir. Esse projeto valida sua senioridade e seu conhecimento de negócio.
